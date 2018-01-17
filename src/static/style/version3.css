@@ -1,0 +1,438 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+.boxshadow{ box-shadow:0 0 10px rgba(0,0,0,0.3)}
+.vertical{    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;}
+.perfectCon ul li{ border-bottom:1px solid #d7d7d7}
+.perfectCon ul li{ border-top:none; }
+.skyblue{ color:#68b9ff;}
+.noRigArrow{}
+.registerList .noRigArrow::after{ content:'';}
+#sexPerfect{}
+#sexPerfect label{ padding-left:2em; background-image:url(../images/zPsex.jpg) ; background-repeat: no-repeat; background-position: 0 center; background-size:auto 40%; display:inline-block; margin-left:1em;}
+#sexPerfect label.cur{background-image:url(../images/zPsexED.jpg);}
+#cityPerfect{}
+#cityPerfect input{ display:inline-block; border:none; border-bottom:1px solid #d7d7d7; width:20%; text-align:center; padding:0 5px;}
+#cityPerfect .button{ color:#fa5527; padding-left:10px;}
+.ruleCon{ font-size: 1em;padding: 0 4%; width:92%; padding-top:1.08em;padding-bottom: 1.5em;}
+.ruleCon .title{ background:#fa5527; color:#ffffff; font-size:1.25em; line-height:1.5; padding:0 1em; display:inline-block; margin-bottom:0.8em;}
+.ruleCon .smallTitle{ position:relative;  }
+.ruleCon .smallTitle>span{ position:absolute; left:0; top:0.2083333333333333em;background:#ffaa00; color:#ffffff; font-size:1em; width:1.25em; height:1.25em; display:block; text-align:center; line-height:1.25;}
+.ruleCon .smallTitle p{ color:#fa5527;padding-left:1.5em;line-height:1.538461538461538; font-size:1.083333333333333em;}
+.ruleCon .smallTitle p span,.ruleCon .detail span{ color:#7f7f7f;}
+.ruleCon .detail{  padding:0 1.5em;padding-bottom:0.4230769230769231em;}
+.ruleCon .detail p{line-height:1.538461538461538; font-size:1.083333333333333em; }
+#ruleScoreDetail{ background:#fff4d6; border:1px solid #ffbf27; margin-bottom:1em; margin-top:0.5em;}
+#ruleScoreDetail tr th{ font-size:1.25em; line-height:2; background:#fff9e7; color:#ff7000;}
+#ruleScoreDetail tr td{ background:#ffffff; font-size:1em; line-height:2.291666666666667; text-align:center;}
+.degreeCon{  background:#f1f1f1; width:92%; padding:1em 4%;} 
+.nopaddinglr{ padding:0; width:100%;}
+.nopaddinglr .degreeCon .smallTitle{ margin-bottom:0.5em;}
+.block{ display:block; }
+.zdegree { padding-top:0.8333333333333333em;}
+.zdegree .box{width:94%; margin:0 auto; position:relative; padding-left:3em; margin-bottom:0.8333333333333333em;}
+.zdegree .box .img{ position:absolute; left:0; top:50%; margin-top:-3em; width:6em; height:auto; background:#fff8eb; border-radius:50%; -moz-border-radius:50%; }
+.zdegree .inner{ font-size:1em; line-height:2; padding:0.5833333333333333em 0 0 4em; border:2px  solid #fff8eb;background:#fff8eb; box-sizing:border-box; }
+.zdegree .box.over .img{background:#f4f4f4; }
+.zdegree .box.over  .inner{border:2px  solid #f4f4f4;background:#f4f4f4;}
+.zdegree .inner p{background:url(../images/zsqure.png) no-repeat 0 0.3846153846153846em ; background-size:auto 0.3846153846153846em; font-size:1.083333333333333em;line-height:1.333333333333333em; padding:0 0 0.5384615384615385em 0.6153846153846154em;} 
+.zdegree .inner p em{ color:#fa5527;}
+.zdegree .inner p span.gray{color:#999999;}
+.investList li{ position:relative;}
+.investList .indexs{ position:absolute; left:0; top:0; background:#ffaa00; color:#ffffff; font-size:1em; text-align:center; line-height:1.25; width:1.25em; height:1.25em; display:inline-block;}
+.invitationData{}
+.invitationData>div{ text-align:center;border-bottom: 0.4166666666666667em solid #f1f1f1; padding-top:0.75em;}
+.invitationData>div p{ font-size:1.25em; line-height:1.5;}
+.invitationData>div span{color: #B1B1B1; padding-bottom:0.4em;}
+.invitationData>div .iconfont{color: #fa5527; font-size:2.583333333333333em;}
+.invitionCtop{ padding-top:8.166666666666666em;}
+.headicon { position:absolute; right:0; top:0; font-size:1.083333333333333em; line-height:2.692307692307692; padding-right:1.4em; background:url(../images/zInvition.png) no-repeat right center; background-size:auto 25%;}
+.invitationTitle{ background:#f1f1f1; padding:0.8333333333333333em 0;}
+.invitationTitle .inner{ background:#ffffff; position:relative; height:2.916666666666667em; font-size:1em; width:92%; margin:0 auto; text-align:left;}
+.invitationTitle .detailSea{font-size:1.083333333333333em; border:none; margin-top:0.3461538461538462em; line-height:2; display:inline-block; width:50%; background:url(../images/zInvition1.png) no-repeat 0.5em center; background-size:auto 50%; padding:0 2em;}
+.headlist {
+    width:7em;
+    position: absolute;
+    right: 15px;
+    top: 3.75em;
+    z-index: 3;
+    display: none;
+    background:#fe7c40;
+}
+.headlist li:first-child{ border-top:none;}
+.headlist li {
+    line-height: 2.692307692307692;
+    font-size: 1.083333333333333em;
+    text-align: center;
+    color: #ffffff;
+    background:#fe7c40;
+    width:92%; 
+    border-top:1px solid  #ffffff;
+    margin:0 auto;
+}
+.sp1 {
+    display:none;
+    position:absolute;
+    bottom:0;
+    left: 50%;
+    background:url(../images/zInvitionbg.png) no-repeat 0 center; width:0.6923076923076923em; height:0.3461538461538462em; background-size:auto 100%;
+}
+.zmore{}
+.zmore span{ display:inline-block; background: url(../images/zmore_19.png) no-repeat 0 center; background-size:auto 1em; padding-left:1.3em; color:#b9b9b9;}
+.zlrTop{ width:82%; height:auto; display:block; margin:0 auto; padding:2.5em 0;}
+.zloginR { text-align:center; line-height:3;} 
+.zloginR a{ color:#fa5527;} 
+.zregisterList li{ border:1px solid #d6d6d6; margin-bottom:1em;}
+.zregisterTable{ width:92%; margin:0 auto;}
+.zregisterTable .iconfont{ font-size:1.333333333333333em; line-height:3.1875;}
+.zregisterTable .rightseePWD{ position:absolute; right:0; top:0; text-align:center; width:5.5em;}
+.zregisterTable .rightseePWD .iconfont{ }
+.zregisterTable .textArea{ padding-left:3em;}
+.gray{ color:#9c9c9c;}
+.errorTip{ left:0;}
+.zforgetPwd{ color:#b1b1b1;position: absolute;
+    font-size: 1.125em;
+    right:0;
+    top: 0;
+    line-height: 2.6;}
+.code{ right:0; width:5.5em;height:3.62962962962963em;line-height:3.62962962962963em; margin-top:-1.814814814814815em; background:#fa5527;}
+.imgcode { background:#eaeaea;}
+.zregisterList li.zcode{ padding:0 6.5em 0 0; border:none; width:100%;}
+.zregisterList li.zcode .inner{ padding:0 4%; border:1px solid #dfdfdf;height: 4.083333333333333em;}
+.zMemeberTop{ width:100%; background:#fa5527 url(../images/zMember1.png) no-repeat 0 bottom; background-size:100% auto; color:#ffffff; text-align:center;}
+.zMemeberTop .degree{ position:relative;padding-top:0.5em; display:inline-block;height: 7.125em; }
+.zMemeberTop .degree img{ width:auto;height:7.125em;}
+.zMemeberTop .degree p{ color:#fbff54; font-weight:bold; position:absolute; left:0; bottom:0; text-align:center; width:100%;     line-height: 1.373493975903614em;
+    bottom: 0.686746987951807em;}
+.ZmemberName{ padding:0 0 0.6153846153846154em 0;}
+.ZmemberName p:first-child{ font-size:1.416666666666667em;}
+.ZmemberName p{ color:#ffffff; line-height:1.769230769230769; font-size:1.083333333333333em;}
+.zwardMember{ background:#ffaa00;}
+.zwardM{ padding:1em; border-bottom:1px solid #e3e3e3;} 
+.zMemberMid li{ width:25%; text-align:center; float:left; padding-top:1.166666666666667em;}
+.zMemberMid li.col3 { width:33.333333333%}
+.zMemberMid li.col3 a{ display:inline-block; height:5em; overflow:hidden;}
+.zMemberMid li.col3 .imgIcon{ height:1.666666666666667em; width:auto;}
+.zMemberMid li i{ font-size:1.666666666666667em;}
+.zMemberMid li span{ display:block; font-size:1.166666666666667em; line-height:2.285714285714286; padding-bottom:0.3214285714285714em} 
+.zMemberbottom{ border-top:0.5em solid #f0f0f0;}
+.imgSM{ display:block; width:50%; margin:0 auto; height:auto; padding-bottom:1.666666666666667em;}
+.zMemberbottom .inner{ width:96%; padding-left:4%;}
+.zMemberbottom .inner .zMlist li{ width:50%; float:left; margin-bottom:2em;}
+.zMemberbottom .inner .zMlist li .box{ padding-right:8.33333333333333%; text-align:center;}
+.zMemberbottom .inner .zMlist li .box .img{ padding:0.5em; background:#ffffff; }
+.zMemberbottom .inner .zMlist li .box img{ display:block; width:100%;}
+.zMemberbottom .inner .zMlist li .box .title{ line-height:1.714285714285714;height:1.714285714285714em; font-size:1.166666666666667em; padding-top:0.3571428571428571em; overflow:hidden; white-space:nowrap; 
+width:100%;text-overflow:ellipsis;}
+.zMemberbottom .inner .zMlist li .box .info{ font-size:1.083333333333333em; padding-bottom:0.6923076923076923em;}
+.zMemberbottom .inner .zMlist li .box .info i{ font-size:1em;}
+.zMemberbottom .inner .zMlist li .box a{ background:#fa5500; color:#ffffff; text-align:center; height:2.352941176470588em; line-height:2.352941176470588em; font-size:1.416666666666667em; width:84%; display:block; margin:0 auto;}
+.orderTip p{display:inline-block; color: #404040; padding-left: 1.5em; font-size:1.125em; line-height:2; height:2em;background: url(../images/check.png) no-repeat 0 center;
+background-size:auto 50%;}
+.orderTip p a{ color:#fa5527;}
+.orderTip p input{display: none;}
+.orderTip p.cur{ background: url(../images/check2.png) no-repeat 0 center;background-size:auto 50%;}
+.sureBtn .orderTip{ position:absolute; left:0; top:0;}
+.sureBtn{ padding-top:5em;}
+.clickMore{ text-align:center; font-size:1em; color:#aaaaaa; line-height:2; padding-bottom:0.5em;}
+/****/
+.intergraList li{ background:#fff9ee;border-bottom: 0.4166666666666667em solid #ffffff;}
+.integralTop{ position:static;position:relative; background:#ffffff;width:92%; padding:0.4166666666666667em 4%;}
+.integralTop .inner{ padding-left:6em;position:relative; }
+.integralTop .headicon{ left:4%; right:auto; font-size:1.083333333333333em; line-height:3.125; left:0;}
+.search{ width:100%; position:relative;}
+.searchBtn{ position:absolute; right:0; top:0; font-size:1em; width:3.125em; height:3.125em; background:url(../images/zInvition1.png) no-repeat center center; background-size:auto 50%; border:none;}
+.integralTop .detailSea{ border:1px  solid #cecece; width:100%; padding:0 5px; display:block; font-size:1em; line-height:3.125; background:#ffffff; color:#afafaf;}
+.integralTop  .headlist{ left:15px; right:auto;}
+.intergraList .investBlock .investBox span{ color:#f92700;}
+.interTop{ background:#fa5527 url(../images/zInterbg.png) no-repeat 0 bottom; background-size:100% auto; padding:1.25em 0 1.5em 0;}
+.interTop img{ height:2.875em; width:auto; padding-bottom:1.25em;}
+.interTop  p{ color:#ffffff; font-size:1.416666666666667em; line-height:1.411764705882353;}
+.interTop  span{ color:#ffffff; display:block; line-height:1.5;}
+.interTop .box{width:50%; text-align:center;}
+.interTop .all{ float:left; position:relative;}
+.interTop .all:after{ display:block; content:'';position:absolute;right:0; height:90%; top:5%; width:1px; overflow:hidden; background:#fc8862;}
+.interTop .had{ float:right}
+.tabSelect{ padding-bottom:0;}
+.tabSelect p.cur span{ position:relative; border-bottom:0; padding-bottom:3px;}
+.tabSelect p.cur span:after{ display:block; content:''; width: 5em;
+    bottom:0em;
+    height: 3px;
+    overflow: hidden;
+    background: #fa5527;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.5em;}
+.zcPhone{ font-size:1.166666666666667em; text-align:right; line-height:3.571428571428571; background:#ffffff; padding:0 4%; position:relative;  border-bottom:0.3571428571428571em solid #f1f1f1; margin-bottom:1em;}
+.zcPhone i{}
+.zcPhone p{ font-size:1; display:inline-block; position:absolute; left:4%; top:0;}
+.blackBg {
+    background: #7a7a7a;
+}
+.zcenterNologin{ z-index:1000;}
+.MemebetLogInner{ width:100%;position:absolute; left:0; top:0; z-index:2; height:100%; overflow:auto;}
+.conmess{ width:88%; max-width:540px; border:2px solid #ffee9f; padding:3.875em 0 0 0; background:#ffffff url(../images/zZLOG1.png) no-repeat 0 0 ; background-size:100% auto; text-align:center;}
+.scorePaing{ text-align:center; font-size:1.333333333333333em; line-height:1.8125; color:#272727;}
+.zZLOG2{ width:84%; height:auto;}
+.btngroup{ padding:2em 0 1em 0; width:90%; margin:0 auto;}
+.btngroup span{ float:left; width:46%; margin:0 2%; display:inline; font-size:1.333333333333333em; line-height:2.5; height:2.5em; background:#fa5527; color:#ffffff; text-align:center;}
+
+.zMtable { padding:0 10px;}
+.zMtable tr td{ padding:0.5em 0; }
+.zMtable tr td:first-child{ vertical-align:top;width:5em;}
+.zMtable tr td:first-child span{ line-height:3.333333333333333; display:inline-block;}
+.zMtable tr td span.spant{ padding-right:5px;}
+.pnInput{ display:block; width:100%; line-height:2; padding:0.6666666666666667em 8px; border:1px solid #d2d2d2;}
+.detailSite{ line-height:1.583333333333333; padding:0.5833333333333333em 8px; height:5.75em;}
+.areaMc{ width:100%;}
+.areaMc .china{ width:38%; float:left;}
+.areaMc .proVinces{ width:59%; float:right;}
+.areaMc .box{padding-left:0.5em; text-align:left;display:block;  line-height:2; padding:0.6666666666666667em 8px; border:1px solid #d2d2d2; background:url(../images/zInvition2.png) no-repeat 93% center; background-size:auto 20%;}
+.areaMc .box input{ border:none; width:100%;}
+.select2-drop{ z-index:11111111;}
+.zdegreeC{ display:inline-block; padding:0.5em 0; }
+.zdegreeC .box {width:2.666666666666667em; text-align:center; padding-right:2em; float:left; position:relative;}
+.zdegreeC .box .img{ width:2.666666666666667em; height:2.666666666666667em; background-repeat:no-repeat; background-size:100% auto; position:relative; z-index:2;}
+.zdegreeC .box  p{ font-size:1em; color:#ffffff;}
+.zdegreeC .box:after{ display:block; content:''; height:0px; overflow:hidden; border-top:1px dashed #fed49f; position:absolute; left:60%; width:90%; top:1.333333333333333em; z-index:0;}
+.zdegreeC  .zd6:after{ border:none;}
+.zdegreeC  .zd6{ padding-right:0;}
+.zdegreeC  .zd1.had .img{ background-image:url(../images/Zdegree1.png);}
+.zdegreeC  .zd1 .img{ background-image:url(../images/Zdegree10.png);}
+.zdegreeC  .zd2.had .img{ background-image:url(../images/Zdegree2.png);}
+.zdegreeC  .zd2 .img{ background-image:url(../images/Zdegree20.png);}
+.zdegreeC  .zd3.had .img{ background-image:url(../images/Zdegree3.png);}
+.zdegreeC  .zd3 .img{ background-image:url(../images/Zdegree30.png);}
+.zdegreeC  .zd4.had .img{ background-image:url(../images/Zdegree4.png);}
+.zdegreeC  .zd4 .img{ background-image:url(../images/Zdegree40.png);}
+.zdegreeC  .zd5.had .img{ background-image:url(../images/Zdegree5.png);}
+.zdegreeC  .zd5 .img{ background-image:url(../images/Zdegree50.png);}
+.zdegreeC  .zd6.had .img{ background-image:url(../images/Zdegree6.png);}
+.zdegreeC  .zd6 .img{ background-image:url(../images/Zdegree60.png);}
+.zItaskbottom{ border-top:none; padding-top:1em;}
+.zItaskbottom .inner .zMlist li{ margin-bottom:1.75em;}
+.zItaskbottom .inner .zMlist li.hadone .box a{ background:#ffffff; color:#fa5527; border:1px solid #fa5527;}
+.zItaskbottom .inner .zMlist li .box .img{ padding-top:0;}
+.seeRULE{ color:#a0a0a0; line-height:2.25; padding-bottom:2em;}
+.paddingTop{ padding-top:1em;}
+.zScode .Inner{ text-align:center;background: #fa8227;
+    background: -webkit-linear-gradient(to bottom,#fa8227,#fa5627);
+    background: -o-linear-gradient(to bottom, #fa8227,#fa5627);
+    background: -moz-linear-gradient(to bottom,#fa8227, #fa5627);
+    background: linear-gradient(to bottom,#fa8227, #fa5627);
+}
+.zScode .ZFInner{background:fe6f1d;
+    background: -webkit-linear-gradient(to bottom,#fe6f1d,#fa5627);
+    background: -o-linear-gradient(to bottom, #fe6f1d,#fa5627);
+    background: -moz-linear-gradient(to bottom,#fe6f1d, #fa5627);
+    background: linear-gradient(to bottom,#fe6f1d, #fa5627);
+    padding-bottom:1.5em;}
+.zScode .img{ width:100%; height:auto; display:block;}
+.zScode .Inner .myCode{ width:92%; border:2px solid #fedf5f; background:#ffffff; color:#fa5527; text-align:center; display:block; margin:0 auto; font-size:1.166666666666667em; line-height:2.714285714285714; margin-bottom:1.5em;}
+.zScode .Inner .btns{ width:88%; margin:0 auto; font-size:1.416666666666667em; line-height:2.352941176470588; border:2px solid #fff8bd; background:#ffaa00; color:#ffffff; display:block; margin:0 auto;margin-bottom:0.7647058823529412em;text-align:center;}
+.zScode .Inner .txt{ padding:1.583333333333333em 0 0.75em 0;}
+.zScode .Inner .txt p{ line-height:1.666666666666667; font-size:1em; color:#ffffff; text-align:center;}
+.ZFInner{ width:92%; margin:0 auto; padding:0 4%;}
+.zfTop{ background:#aa5df2; color:#ffffff; text-align:center; border-radius:15px 15px 0 0;-moz-border-radius:15px 15px 0 0; -webkit-border-radius:15px 15px 0 0; border-bottom:4px solid #fffa68; }
+.zfTop img{ height:1.833333333333333em; padding-top:1em;}
+.zfTop p{ font-size:1em; line-height:2.5; font-size:1.076923076923077em;color:#ffffff;}
+.zfTop p a{ color:#fff701}
+.zftable{ background:#ffffff; padding:1em 4% 1.5em 4%; border-radius:0 0 15px 15px ;-moz-border-radius:0 0 15px 15px; -webkit-border-radius:0 0 15px 15px;  }
+.zftable .commonBtn,.zftable .code{ background:#ffaa00;}
+.zftable .orderTip p{ background-image:url(../images/checkY.png);}
+.zftable .orderTip p.cur{ background-image:url(../images/checkY2.png);}
+.zftable .orderTip p a { color:#4a4a4a;}
+.zDbanner img{ width:100%; display:block; height:auto;}
+.zDcontent{ padding:1.25em 2%; width:96%; background:#ffffff;}
+.zDtips{ color:#808080; font-size:1em; line-height:1.5; text-align:center; width:92%; margin:0 auto; padding-bottom:1em;}
+
+/*抽奖*/
+.zDcontent .top{position: relative;display: inline-block;}
+.zwardList{position:relative; }
+.zwardList li{ color: #ffffff; text-align: center; float: left; position: absolute;background-repeat:no-repeat; background-size:100% 100%}
+/**20170113*/
+.zwardList li.even .inner{ background-color:#ffe064;border:3px solid #ffe9a4;}
+.zwardList li.odd .inner{background-color:#ff9726; border:3px solid #ffd09d;}
+.zwardList li.even.cur .inner{ background-image:url(../images/zWardSbg1.png); }
+.zwardList li.odd.cur .inner{background-image:url(../images/zWardSbg2.png);}
+.zwardList li .inner{  color:#ff2869;margin:2px; display: block; width:92px; height:92px; line-height: 92px;border-radius:15px; -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.zwardList li .inner span{ display: none;}
+.zwardList li .inner img{ display: block; width: 100%; border-radius:15px;border-radius:15px; -moz-border-radius:15px;}
+.zwardList li.cur .inner{ background-color: none; background-image: url(../images/bg1.png); background-repeat: no-repeat; background-position:  0 0;
+    background-size: cover; color: #ffffff; box-shadow:0 0 15px rgba(255,23,41,1)}
+.begin{ text-align: center; font-size: 1.166666666666667em;  color:#ffffff; background:url(../images/zWARDSbtn.jpg) no-repeat center center; background-size:100% auto;cursor: pointer; text-indent:-99999em;}
+.randomE,.result{ padding:0 5px; margin: 0 auto; line-height: 2.857142857142857; background: #f9dd59; color: #ffffff; margin-bottom: 20px;}
+.randomE{ margin:10px auto; text-align:center;}
+.result{ background:#ff2869; color:#ffffff; box-shadow:inset 0 2px 1px #ffffff; margin:0px;
+font-size:1.5em; font-weight: bold;}
+.numCount,.randomE,.result{ display:none;}
+.result:after,.result:before{
+    display: block; content: ''; width: 5px;
+    height: 30px;background:#ff2869; position: absolute; left: 40px; top:-30px; }
+.result:before{ right: 40px; left:auto;}
+.result span{ color: #fff100;}
+.timeget{ text-align: center; font-size: 26px; color:#ffffff; line-height: 50px;}
+
+.zwardListC{}
+.zwardListC li{ padding:0.625em 4%; border-bottom:1px solid #e0e0e0; position:relative; min-height:6.916666666666667em;}
+.zwardListC li .rules{ position:absolute; right:4%; text-align:right; top:0.625em; color:#9f9f9f; line-height:2.5em; font-size:1em;}
+.imgleft{ float:left; padding:0.8333333333333333em; background:#fffae5; position:absolute; left:4%; top:0.625em;}
+.zwardListC li .img{ width:9.833333333333333em; height:5.083333333333333em; background:url(../images/zW_04.png) no-repeat center center; background-size:100% 100%; text-align:center; padding-right:3.25em;}
+.zwardListC li .img.ddj{background:url(../images/zW_03.png) no-repeat center center; background-size:100% 100%; }
+.fonts em,.fonts i{ color:#fa5527;}
+.fonts em{ font-size:1.666666666666667em; }
+.zwardListC li .txt{ padding-left:12.5em; width:100%; text-align:left;min-height:6.916666666666667em;}
+.zwardListC li .txt h2{ font-size:1.25em; color:#FA5522; line-height:1.666666666666667}
+.zwardListC li .txt .time{ font-size:1.083333333333333em;}
+.mywardc{ width:100%; text-align:left;}
+.zwardListC li .txt p{ line-height:1.692307692307692;}
+.zwardListC li .txt p span{ color:#9d9d9d;}
+.perfectCon .selectRight a{ color:#979797;}
+.zHobbyCon { padding-bottom:1.5em;}
+.zHobbyCon .top{ background:#fff8eb; padding:1em 4%; width:92%;line-height:2; position:relative;}
+.zHobbyCon .top .til{ font-size:1.083333333333333em; color:#fa5527; position:absolute; left:4%; top:0.9230769230769231em;}
+.zHobbyCon .top .con{font-size:1.083333333333333em; padding-left:3em; min-height:2.166666666666666em;}
+.zHobbyCon .top .con span{color:#1a1b1e; background:url(../images/zchecked.png) no-repeat 0 center; background-size:auto 1em; padding-left:1.3em; padding-right:0.5em;}
+.zHobbyCon .hobbyInner{ width:92%; margin:0 auto; padding:1em 0;}
+.zHobbyCon .hobbyInner .title{ margin-bottom:0.1666666666666667em;}
+.zHobbyCon .hobbyInner .block{ padding-bottom:0.5833333333333333em;}
+.zHobbyCon .hobbyInner .block p{font-size:1.083333333333333em; line-height:2.076923076923077; width:25%; float:left; padding-left:1.3em; background-image:url(../images/zcheck.png); background-repeat:no-repeat; background-position:0 center; background-size:auto 1em;}
+.zHobbyCon .hobbyInner .block p.cur{background-image:url(../images/zchecked.png);}
+.zHobbyCon .hobbyInner .title span{ background:#ffbf3f; color:#ffffff; display:inline-block; padding:0 1em; line-height:1.875em;}
+.zHobbyCon .hobbyInner .tip{ color:#fa5527; border-top:1px solid #dedede; line-height:2.583333333333333;}
+.copyT{ background:#ffffc8 url(../images/zlight.png) no-repeat 0.5em center; background-size:auto 1em; color:#fb5d2d; display:inline-block; line-height:2; font-size:1.083333333333333em; padding:0 1em 0 2em;
+margin-bottom:1.3em; position:relative;}
+.copyT:after{ display:block; width:7px; height:8px;background:#ffffc8; position:absolute; right:25px; top:-4px; transform:rotate(45deg); display:block; overflow:hidden; content:''; }
+.couponList .couponLeft{ background-color:#fff6c0;}
+.couponList .couponLeft p i,.couponList .couponLeft span,.couponList .couponLeft p{ color:#fa5527;}
+.couponList li{ background-color:#fffbdd;}
+.couponList li.limit, .couponList li.used{ background-color:#f7f7f7;}
+.couponList li.limit .couponLeft p i,.couponList li.limit .couponLeft span,.couponList li.limit .couponLeft p{ color:#ffffff;}
+.couponList li.used .couponLeft p i,.couponList li.used .couponLeft span,.couponList li.used .couponLeft p{ color:#ffffff;}
+.siteTitle{font-size:1.083333333333333em; text-align:left; padding:0 1em; line-height:1.5; padding-bottom:0.5em;}
+.addNewSite{ font-size:1.166666666666667em; margin:0.6071428571428571em 0; line-height:2; color:#fa5537;}
+.sitesGroup{ font-size:1.083333333333333em; padding:0 1em; text-align:left;}
+.sitesGroup .box{ background:#f8f8f8; color:#939393;padding:0 0.5em; margin-bottom:0.5em;}
+.sitesGroup .box.on{ background:#fffce8; color:#383838; }
+.sitesGroup .top,.sitesGroup .bot{ line-height:2.230769230769231;height:2.230769230769231em; position:relative;}
+.sitesGroup .top .name,.sitesGroup .top .tel{ position:absolute; left:0; top:0; display:inline-block;}
+.sitesGroup .top .tel{ left:auto; right:1em; text-align:right;}
+.sitesGroup .site{ line-height:2;}
+.sitesGroup .bot .checkSite{ display:inline-block; padding-left:1.5em; background-image:url(../images/check0.png); background-repeat:no-repeat; background-position:0 center; background-size:auto 1em;}
+.sitesGroup .bot .checkSite.cur{background-image:url(../images/check2.png);}
+.sitesGroup .bot .er{ color:#fa5527; padding-left:2em; float:right;}
+.zMemberIog3 .conmess{ padding-bottom:1.5em;}
+.zMemberIog3 .addNewSite i{ font-size:1em; padding-right:0.4em;}
+.interCon{ padding:0 4%;}
+.halfBox{ width:50%; float:left;}
+.halfBox{padding: 1.5em 0;}
+.halfBox .headicon{ padding:0 0.25em; background:none;}
+.halfBox  .inner {padding-left: 3em;}
+.halfBox  .headlist {width:100%; right:0; left:auto; top:3.7em;}
+.halfBox  .detailSea{ background:url(../images/zInvition.png) no-repeat 95% center; background-size:auto 25%;}
+.halfBox .sp1{ left:auto; right:10%; width:0.8em; height:0.4em; bottom:-0.4em; }
+.zMemberIog3 .conmess{ position:relative;}
+.zMemberIog3 .conmess .siteCon {
+    overflow: auto;
+    height: 100%;
+}
+.closeMlog{ width:3em; height:3em; position:absolute; right:-1em; top:-1em; background:#ffffff url('../images/ztaskClose.png') no-repeat center center;
+background-size:100% 100%;}
+
+.couponList .couponRight .title{    font-size: 1em; color:#fa5527; font-size:1.166666666666667em;
+    line-height: 1.5;
+    padding-bottom: 0.3333333333333333em;}
+.couponList li.used .couponRight .title,.couponList li.limit .couponRight .title{ color:#424242;}
+
+@media only screen and (max-width: 320px){
+    .zMemberbottom .inner .zMlist li .box .title{font-size:1em;}
+}
+/*20170105 中奖信息页面css*/
+.lotteryDialogs,.myWards{ display:none; position:fixed;left:0; top:0; bottom:0; right:0; width:100%; height:100%; z-index:105;}
+.lotteryDialogsInner{ width:88%; margin:0 auto; text-align:center; position:relative;}
+.lotteryDialogsInner img{ display:block; width:100%; margin:0 auto;}
+.lotteryC,.myWardsC{ height:100%;}
+.lotteryC .cc{ text-align:center; width:100%;}
+.lotteryBtn{  display:inline-block; line-height:2.5; color:#ffffff; background:#fa5527;  margin-top:1em; text-align:center; font-size:1.333333333333333em; font-weight:bold;width:8em; margin-left:-4em; position:absolute; left:50%; bottom:1.625em;}
+/**20170206*/
+.lotterygGroup{ width:14em; margin-left:-7em;font-size:1.333333333333333em;position:absolute; left:50%; bottom:1.625em;}
+.lotterygGroup .lotteryClose{ float:left;display:inline-block; line-height:2.5; color:#ffffff; background:#fa5527;  margin-top:0; text-align:center; font-size:1em; font-weight:bold;width:8em; margin-left:-4em; width:43%; margin:0 2% 0 5%; } 
+.lotterygGroup  .lotteryBtn{  display:inline-block; line-height:2.5; color:#ffffff; background:#fa5527;text-align:center; font-size:1em; font-weight:bold;width:43%; margin:0 5% 0 2%; position:static; }
+/**20170206*/
+.wardSucess,.wardFail{ padding-top:12em;  background:url(../images/zAPP_S.png) no-repeat center center; background-size:auto 100%; padding-bottom:4.5em;}
+.wardFail{ background:url(../images/zAPP_F.png) no-repeat center center; background-size:auto 100%;}
+.wbox p{ color:#f50000; font-size:1.333333333333333em; font-weight:bold; padding:0.7em 10px 1.3em 10px; text-align:center; line-height:2; }
+.wardFail .happy,.wardFail p{ color:#270e65;}
+.wardSucess img{ width:19%; display:block; margin:0 auto;}
+.wardSucess img.card{ width:40%;}
+.wardSucess img.rain{ width:22%;}
+.myWards p{font-size:1.25em; line-height:1.5; padding:1em 0; border-top:1px solid #ffcba8; padding-left:3.2em; background-repeat:no-repeat; background-position:0.2em center; background-size:auto 2.5em; color:#f51748; width:90%; margin:0 auto;}
+.myWards .con{ width:86%; margin:0 auto; padding:0.3em;
+ background:#fffae5; 
+ background: -webkit-linear-gradient(45deg,#39fead, #49dbe8,#9d65fa,#ff4b19,#ffe235); /* Safari 5.1 - 6.0 */
+ background: -o-linear-gradient(45deg,#39fead, #49dbe8,#9d65fa,#ff4b19,#ffe235); /* Opera 11.1 - 12.0 */
+ background: -moz-linear-gradient(45deg,#39fead, #49dbe8,#9d65fa,#ff4b19,#ffe235); /* Firefox 3.6 - 15 */
+ background: linear-gradient(45deg,#39fead, #49dbe8,#9d65fa,#ff4b19,#ffe235); /* 标准的语法 */}
+  .myWards .con .list{background:#fffae5 url(../images/elenderbg2.png) no-repeat right bottom; background-size:30% auto; padding:6em 0 3em 0; }
+  .imgTop{ padding-top:4.333333333333333em; position:relative; width:100%;}
+  .imgTop .imgs{ position:absolute; height:10em; top:0; width:100%;}
+  .imgTop .imgs img{ height:100%; width:auto; display:block; margin:0 auto;}
+  .mywardsClose{ background:url(../images/elevenclose.png) no-repeat 0 0;background-size:100% 100%; width:2.5em; height:2.5em; position:absolute; right:1em; top:5em; z-index:105;}
+  .myWards .con,.lotteryDialogsInner{ max-width:300px;}
+.mywardsClose{ background:url(../images/elevenclose.png) no-repeat 0 0;background-size:100% 100%; width:2.5em; height:2.5em; position:absolute; right:1em; top:5em; z-index:105;}
+  .myWards .con,.lotteryDialogsInner{ max-width:328px;}
+  .bgfix { opacity:0.8;-moz-opacity:0.8;}
+  .innerTweBottom{ background:#3f057d; 
+  background: -webkit-linear-gradient(to bottom,#3f057d,#350677,#2c0771); /* Safari 5.1 - 6.0 */
+ background: -o-linear-gradient(to bottom,#3f057d,#350677,#2c0771); /* Opera 11.1 - 12.0 */
+ background: -moz-linear-gradient(to bottom,#3f057d,#350677,#2c0771); /* Firefox 3.6 - 15 */
+ background: linear-gradient(to bottom,#3f057d,#350677,#2c0771); /* 标准的语法 */}
+ .lotteryTime{ line-height:1.875em; padding:0.8em 0.5em 1.4em 0.5em; font-size:1em; text-align:center; color:#ffffff; font-weight:bold; background: url(../images/zAPP_12.png) no-repeat center center; background-size:auto 100%;}
+.lotteryTime span{ color:#f9ff00;}
+
+/**新手指引**/
+.newGuide{ width:92%;padding:0 4%;}
+.newGuide .box { padding:1.25em 0  2.083333333333333em 0;}
+.newGuide .box .img{ display:block; margin:0 auto; height:auto; width:43%; padding-bottom:1.333333333333333em;}
+.newGuide .box .detail{ line-height:1.428571428571429em; padding:0.9285714285714286em 0; font-size:1.166666666666667em; text-align:center;}
+.newGuide .box .detail span{ color:#fa5527}
+.newGuide .box .title{ font-size:1.083333333333333em; background:url(../images/zGuide0.jpg) no-repeat center center; background-size:auto 100%; text-align:center; display:inline-block; padding:0 2em; color:#ffffff; line-height:1.384615384615385em;}
+.newGuide .box .commonBtn { background:#ffaa00;}
+.newGuideIndex{ position:absolute; right:0; top:0; width:5em; height:auto; z-index:3;}
+.newGuideIndex img{ display:block; width:5em; height:auto;}
+/**20170113*/
+.zMemberbottom .inner .zMlist li .box .info{ padding:0.5em 0;}
+.zMemberbottom .inner .zMlist li .box .img{ position:relative; padding:1em 0.5em;}
+.zMemberbottom .inner .zMlist li .box .img.jxj{ }
+.zMemberbottom .inner .zMlist li .box .img.ddj{ }
+.zMemberbottom .inner .zMlist li .box .img p{ width:66%; text-align:center; position:absolute; left:0.5em; top:1em; height:60%; }
+.zMemberbottom .inner .zMlist li .box .img p span{ font-size:1.666666666666667em; font-weight:bold;color:#ffffff;}
+.zMemberbottom .inner .zMlist li .box .img p span,.zMemberbottom .inner .zMlist li .box .img p i{ color:#ffffff;}
+#ruleDDJ.allCon,#ruleJXJ.allCon{ bottom:5em}
+.action{color:#7f7f7f; line-height: 1.538461538461538;font-size: 1.083333333333333em;margin-bottom: 0.5em; text-align:justify}
+.actionB{color:##4a4a4a; line-height: 1.538461538461538;margin-bottom: 0.5em; text-align:justify}
+.perfectCon .selectRight  i{color: #979797; display:inline-block; margin-left:1em;}
+.perfectCon .selectRight  span{ background:#fff9eb; color:#424242; padding:2px 4px; margin:0 3px; display:inline-block; line-height:1.5}
+.ZmemberName p.go {
+    font-size: 1.083333333333333em;
+}
+.ZmemberName p.go a {
+    color: #fbff54;
+    font-size: 1em;
+}
+/*2017 03 02**/
+.zwardM.W50 a{width:48%; margin:0 1%; float:left}
+.ruleCon .detail.zcode p{ line-height:1.75;}
+#cashAPrize{background:#ffffff url(../images/zCodeIcon.png) no-repeat 0 center ; background-size:auto 60%; }
